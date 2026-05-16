@@ -75,7 +75,7 @@ cd python-example-app-nag-app-py
 python-example-app-nag-app-py/app.py
 ```
 
-## Content
+## vi app.py
 
 ```python
 from flask import Flask
@@ -100,7 +100,7 @@ if __name__ == "__main__":
 python-example-app-nag-app-py/requirements.txt
 ```
 
-## Content
+## vi requirements.txt
 
 ```text
 flask
@@ -116,7 +116,7 @@ flask
 python-example-app-nag-app-py/Dockerfile
 ```
 
-## Content
+## vi Dockerfile
 
 ```dockerfile
 FROM python:3.11
@@ -144,7 +144,7 @@ CMD ["python", "app.py"]
 python-example-app-nag-app-py/sonar-project.properties
 ```
 
-## Content
+## vi sonar-project.properties
 
 ```properties
 sonar.projectKey=python-example-app-nag-app-py
@@ -494,7 +494,7 @@ Save.
 python-example-app-nag-app-py/Jenkinsfile
 ```
 
-## Content
+## vi Jenkinsfile
 
 ```groovy
 pipeline {
