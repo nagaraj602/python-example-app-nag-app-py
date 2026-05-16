@@ -186,7 +186,7 @@ git commit -m "Initial commit"
 Create GitHub repo and connect:
 
 ```bash
-git remote add origin https://github.com/yourusername/python-example-app-nag-app-py.git
+git remote add origin https://github.com/nagaraj602/python-example-app-nag-app-py.git
 ```
 
 Push:
@@ -476,7 +476,7 @@ Git
 Repository URL:
 
 ```text
-https://github.com/yourusername/python-example-app-nag-app-py.git
+https://github.com/nagaraj602/python-example-app-nag-app-py.git
 ```
 
 Branch:
