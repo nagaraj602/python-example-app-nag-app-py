@@ -510,7 +510,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "yourdockerhubusername/pipeline-app"
+        IMAGE_NAME = "nagarajkamath602/pipeline-app"
         IMAGE_TAG = "${BUILD_NUMBER}"
     }
 
@@ -523,7 +523,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/yourusername/python-example-app-nag-app-py.git'
+                url: 'https://github.com/nagaraj602/python-example-app-nag-app-py.git'
             }
         }
 
